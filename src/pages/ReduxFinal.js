@@ -193,7 +193,6 @@ const CartProductOne = (props) => {
   // Replace the line below to get data of the first product from state.cart.products
   // Change the price of products in `cart.reducer.js` to see the effect
   const product = useSelector((state) => state.cart.products[0]);
-  console.log("prodcut", product)
   return (
     <WrapperBox>
       <Typography p="0.5rem" variant="h5" sx={{ backgroundColor: "primary.main", color: "primary.contrastText" }}>
